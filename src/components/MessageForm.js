@@ -49,7 +49,7 @@ const MessageForm = (props) => {
                 className="message-input" 
                 placeholder="Send a message" 
                 value={value} 
-                onChange={handleUpload}
+                onChange={handleChange}
             ></input>
             <label htmlFor="upload-button">
                 <span className="umage-button">
